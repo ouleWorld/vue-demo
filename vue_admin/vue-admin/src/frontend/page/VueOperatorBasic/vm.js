@@ -43,6 +43,18 @@ export default {
         copyEvent() {
             log('点击复制!')
         },
+        createForm() {
+            this.$router.push({
+                path: '/create/from/page/basic',
+                query: {}
+            })
+        },
+        modifyForm() {
+            this.$router.push({
+                path: '/modify/from/page/basic',
+                query: {}
+            })
+        },
     },
     mounted() {
     },

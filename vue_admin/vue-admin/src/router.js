@@ -8,6 +8,7 @@ Vue.use(VueAwesomeSwiper)
 import HelloWorld from './components/HelloWorld.vue'
 import TableBsic from './frontend/page/TableBasic/index.vue'
 import VueOperatorBasic from './frontend/page/VueOperatorBasic/index'
+import FormPageBasic from './frontend/page/FormPageBasic'
 
 const routes = [
     {
@@ -26,6 +27,14 @@ const routes = [
         path: '/vue/operator/basic',
         component: VueOperatorBasic,
     },
+    {
+        path: '/create/from/page/basic',
+        component: FormPageBasic,
+    },{
+        path: '/modify/from/page/basic',
+        component: FormPageBasic,
+    },
+
 
 ]
 

@@ -1,15 +1,18 @@
 const log = console.log.bind(console);
 import moment from 'moment';
 import types from './types';
+import Pagination from '../../mixin/Pagination'
 import AddInfoDialog from './components/AddInfoDialog';
 import FormDialog from './components/FormDialog'
+
+// 初始化函数名必须为:loadData()
 
 export default {
     components:{
         AddInfoDialog,
         FormDialog,
     },
-    mixins: [],
+    mixins: [ Pagination ],
     data() {
         return {
             isLoading: false,
@@ -53,13 +56,7 @@ export default {
                     zip: 200333
                 }
             ],
-            pagination: {
-                page: 1,
-                size: 10,
-                total: 0,
-            },
             ...types,
-            testData: 1,
         }
     },
     methods: {
@@ -70,18 +67,6 @@ export default {
                 return moment(Number(row[column.property])).format('YYYY-MM-DD HH:mm:ss');
             }
             return '--'
-        },
-        onSizeChange(size) {
-            if (size !== this.pagination.size) {
-                this.pagination.size = size;
-                this.loadData();
-            }
-        },
-        onPageChange(page) {
-            if (page !== this.pagination.page) {
-                this.pagination.page = page;
-                this.loadData()
-            }
         },
         loadData() {
             log('加载表格数据的函数');
@@ -105,5 +90,6 @@ export default {
     },
     mounted() {
         this.loadData();
+        log('this.pagination: ', this.pagination);
     },
 }

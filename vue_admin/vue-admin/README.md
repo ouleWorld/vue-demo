@@ -1,9 +1,11 @@
 # 1. 后台管理的基本页面
 1. table -- doing
 2. form-dialog(表单校验) -- doing
-3. form-page basic(表单校验)
-4. form-page table(表单校验)
-5. form-page img(表单校验)
+3. form-dialog-clear
+4. form-page basic(表单校验) -- doing
+5. form-page table(表单校验)
+6. form-page img(表单校验)
+7. 状态管理的方案: 使用computed 来实现
 
 
 # 2. 公共组件
@@ -21,3 +23,10 @@
 4. 点击复制
 
 # 5. 如何配置scss
+
+# 6. vue 中怎么指定默认的文件夹
+
+# 7. 抽象的能力
+1. mixin: FormHelper.js 表单跳转字段
+2. mixin: Pagination.js 分页
+3. 
