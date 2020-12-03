@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9754db87-d632-4369-9fe5-cec75317939f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../vue_admin/vue-admin/src/frontend/mixin/FormHelper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vue_admin/vue-admin/src/frontend/mixin/Pagination.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vue_admin/vue-admin/src/frontend/page/FormPageBasic/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vue_admin/vue-admin/src/frontend/page/FormPageBasic/rules.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vue_admin/vue-admin/src/frontend/page/FormPageBasic/vm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vue_admin/vue-admin/src/frontend/page/FormPageTableBasic/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vue_admin/vue-admin/src/frontend/page/FormPageTableBasic/rules.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vue_admin/vue-admin/src/frontend/page/FormPageTableBasic/vm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../vue_admin/vue-admin/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../vue_admin/vue-admin/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../vue_admin/vue-admin/src/frontend/page/TableBasic/vm.js" beforeDir="false" afterPath="$PROJECT_DIR$/../vue_admin/vue-admin/src/frontend/page/TableBasic/vm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue_admin/vue-admin/src/frontend/page/FormPageTableBasic/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../vue_admin/vue-admin/src/frontend/page/FormPageTableBasic/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue_admin/vue-admin/src/frontend/page/FormPageTableBasic/rules.js" beforeDir="false" afterPath="$PROJECT_DIR$/../vue_admin/vue-admin/src/frontend/page/FormPageTableBasic/rules.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue_admin/vue-admin/src/frontend/page/FormPageTableBasic/vm.js" beforeDir="false" afterPath="$PROJECT_DIR$/../vue_admin/vue-admin/src/frontend/page/FormPageTableBasic/vm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../vue_admin/vue-admin/src/frontend/page/VueOperatorBasic/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../vue_admin/vue-admin/src/frontend/page/VueOperatorBasic/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../vue_admin/vue-admin/src/frontend/page/VueOperatorBasic/vm.js" beforeDir="false" afterPath="$PROJECT_DIR$/../vue_admin/vue-admin/src/frontend/page/VueOperatorBasic/vm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../vue_admin/vue-admin/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/../vue_admin/vue-admin/src/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,7 +24,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/todo_vue/babel.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
+            <state>
               <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="14" />
             </state>
           </provider>
@@ -40,7 +33,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/todo_vue/src/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state>
               <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
@@ -52,7 +45,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/todo_vue/src/App.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
+            <state>
               <caret line="25" selection-end-line="66" />
             </state>
           </provider>
@@ -71,7 +64,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/todo_vue/src/components/SwiperTodo.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
+            <state>
               <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
@@ -230,7 +223,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
@@ -287,14 +280,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/todo_vue/babel.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
+        <state>
           <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/todo_vue/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state>
           <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
@@ -304,7 +297,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/todo_vue/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
+        <state>
           <caret line="25" selection-end-line="66" />
         </state>
       </provider>
@@ -317,7 +310,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/todo_vue/src/components/SwiperTodo.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
+        <state>
           <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>

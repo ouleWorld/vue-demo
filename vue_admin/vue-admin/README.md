@@ -3,7 +3,7 @@
 2. form-dialog(表单校验) -- doing
 3. form-dialog-clear
 4. form-page basic(表单校验) -- doing
-5. form-page table(表单校验)
+5. form-page table(表单校验) -- doing
 6. form-page img(表单校验)
 7. 状态管理的方案: 使用computed 来实现
 

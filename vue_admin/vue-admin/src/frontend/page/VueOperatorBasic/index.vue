@@ -8,12 +8,13 @@
 
         <el-button type="primary" @click="createForm">跳转: 创建表单</el-button>
         <el-button type="primary" @click="modifyForm">跳转: 修改表单</el-button>
+        <el-button type="primary" @click="modifyTableForm">跳转: 修改Table表单</el-button>
     </div>
 </template>
 
 <script>
     import vm from './vm';
-    export default vm;
+        export default vm;
 </script>
 
 <style lang="css" rel="stylesheet/css">

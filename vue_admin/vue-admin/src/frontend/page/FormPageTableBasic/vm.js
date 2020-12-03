@@ -11,13 +11,12 @@ export default {
             visible: false,
             rules: rules(this),
             formData: {
-                date: '',
                 name: '',
                 province: '',
                 city: '',
                 address: '',
                 zip: '',
-                table: {},
+                info: [],
             }
         }
     },
@@ -31,12 +30,12 @@ export default {
         },
         createResetForm() {
             this.formData = {
-                date: '',
                 name: '',
                 province: '',
                 city: '',
                 address: '',
                 zip: '',
+                info: [],
             }
         },
         createFormInterface() {
@@ -49,7 +48,6 @@ export default {
         },
         modifyResetForm() {
             this.formData = {
-                date: 1606835155657,
                 name: 'oulae',
                 province: 'hunan',
                 city: 'chenzhou',
@@ -70,6 +68,13 @@ export default {
                 this.modifyFormInterface();
             }
         },
+        addInfoData() {
+            this.formData.info.push({
+                name: '',
+                sex: '',
+                time: '',
+            });
+        }
     },
     mounted() {
         // 重置表单

@@ -55,6 +55,12 @@ export default {
                 query: {}
             })
         },
+        modifyTableForm() {
+            this.$router.push({
+                path: '/create/from/page/table/basic',
+                query: {}
+            })
+        },
     },
     mounted() {
     },
